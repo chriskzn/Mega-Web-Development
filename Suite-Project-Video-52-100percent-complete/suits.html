@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/x-icon" href="image/favicon.ico">
+    <title>My Page</title>
+</head>
+<body>
+    <!-- ***************** header ***************** -->
+    <header>
+        <img src="image/brand-logo.svg" width="100" alt="myshop logo">
+        <nav class="main-nav">
+            <a href="index.html" id="selected">Home</a>
+            <a href="shop.html">Shop</a>
+            <a href="contact.html">Contact</a>
+            <a href="profile.html">Profile</a>
+            <a href="signup.html">Signup</a>
+        </nav>
+    </header>
+
+    <!-- ***************** main content ***************** -->
+    <main id="product-con">
+        <!-- Video 50 only made use of class below, video 51 made use of style -->
+        <!-- video 51, he reverts back to what he had originally -->
+        <!--
+        <div class="suit" style="grid-area: header;"><h4>Product title</h4></div>
+        <div class="suit" style="grid-area: main;"><h4>Product title</h4></div>
+        <div class="suit" style="grid-area: sidebar;"><h4>Product title</h4></div>
+        <div class="suit" style="grid-area: p1;"><h4>Product title</h4></div>
+        <div class="suit" style="grid-area: p2;"><h4>Product title</h4></div>
+        <div class="suit" style="grid-area: p3;"><h4>Product title</h4></div>
+        <div class="suit" style="grid-area: footer;"><h4>Product title</h4></div>
+        -->
+        <!--<div class="suit" style="grid-area: ;"><h4>Product title</h4></div>-->
+
+        <!-- originally had these lines and reverts back to them -->
+        <!-- Video 52, we remove the below div's and change them to the img sources
+            We also remove the h4 tags that were added -->
+            <!--
+        <div class="suit vertical"><h4>Product title</h4></div>
+        <div class="suit"><h4>Product title</h4></div>
+        <div class="suit"><h4>Product title</h4></div>
+        <div class="suit"><h4>Product title</h4></div>
+        <div class="suit"><h4>Product title</h4></div>
+        <div class="suit"><h4>Product title</h4></div>
+        <div class="suit"><h4>Product title</h4></div>
+        <div class="suit"><h4>Product title</h4></div>
+        -->
+        <!-- this is the revised code for video 52 which gets it working -->
+        <img class="suit" src="image/suits/p1.png">
+        <img class="suit" src="image/suits/p2.png">
+        <!-- Lecturer changes the below code in video 52 -->
+        <!--
+        <img class="suit" src="image/suits/p3.png">
+        -->
+        <img class="suit vertical" src="image/suits/p3-vertical.png">
+        <img class="suit" src="image/suits/p4.png">
+        <img class="suit" src="image/suits/p5.png">
+        <img class="suit" src="image/suits/p6.png">
+        <img class="suit" src="image/suits/p7.png">
+        <img class="suit" src="image/suits/p8.png">
+    </main>
+</body>
+</html>
